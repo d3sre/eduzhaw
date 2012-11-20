@@ -1,6 +1,6 @@
 package src.main.java;
 
-public class ICar {
+public interface ICar {
 	
 	/**
 	 *  Interface fuer Car, Auto hat Features und unterschiedliche Verhaltensweisen im Sommer und im Winter, diese sollen
@@ -19,4 +19,13 @@ public class ICar {
 	 * Licht nur an wenn Sensor auf dunkel //ist ja nur Bsp Szenario auf die Schnelle, noch nicht ausgereift..
 	 */
 
+	public boolean heatingWorks();
+	
+	public boolean brakesWorkVeryWell();
+	
+	public boolean lightWorks();
+	
+	public void giveTire();
+	
+	
 }
